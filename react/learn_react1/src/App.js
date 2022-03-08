@@ -3,7 +3,7 @@ import { ToastContainer, toast } from 'react-toastify';
 
 function App() {
   const btn_handler = ()=>{
-    toast("Button Is Clicked");
+    toast.error("Button Is Clicked",{position:'bottom-left'});
   };
   return (
     <div>
