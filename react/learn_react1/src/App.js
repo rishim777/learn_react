@@ -1,14 +1,17 @@
-import {Button} from 'reactstrap'
+import {Button, Container} from 'reactstrap'
 import { ToastContainer, toast } from 'react-toastify';
+import Header from './Components/Header'
+import Movie from './Components/Movie';
+import AllMovies from './Components/AllMovies';
 
 function App() {
-  const btn_handler = ()=>{
-    toast.error("Button Is Clicked",{position:'bottom-left'});
-  };
   return (
     <div>
-      <ToastContainer/>
-      <Button color='danger' onClick={btn_handler}> CLICK ME</Button>
+      <ToastContainer />
+      <Header/>
+      
+      <AllMovies/>
+     
     </div>
   );
 }
