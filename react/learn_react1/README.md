@@ -18,4 +18,7 @@ import { ToastContainer, toast } from 'react-toastify';
 #### This library is used for calling urls and webservices
 npm install axios
 
+#### When we call any other component from inside one component then if the called component is accepting an argument
+#### then at calling place we provide the same name of the argument as that is present in called component in its definition or it will not work
+
  

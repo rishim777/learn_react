@@ -1,16 +1,16 @@
-import {Navbar, NavbarBrand, NavbarToggler, Collapse, Nav, NavItem, NavLink, no} from 'reactstrap'
+import {Card,Navbar, NavbarBrand, NavbarToggler, Collapse, Nav, NavItem, NavLink, Container, CardBody} from 'reactstrap'
 
 
 const Header=()=>{
     return (
         <div>
-            <Navbar color="warning" light>
-
-                <NavbarBrand className="me-auto" href="/">
-                Movie Rater
-                </NavbarBrand>
-
-            </Navbar>
+            <Container>
+            <Card className='my-2 bg-warning'>
+                <CardBody>
+                    <h1 className='text-center my-2'>YOUR DIARY</h1>
+                </CardBody>
+            </Card>
+            </Container>
         </div>
     );
 }
